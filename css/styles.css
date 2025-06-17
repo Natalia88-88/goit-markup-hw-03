@@ -38,7 +38,6 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
 }
 
 .header {
@@ -52,7 +51,6 @@ ul {
 
 .nav-ul {
   display: flex;
-  gap: 40px;
   margin-right: 40px;
 }
 .logo {
@@ -87,10 +85,13 @@ ul {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 24px;
-  gap: 40px;
 }
 
-.nav-ul:last-child {
+.nav-li {
+  margin-right: 40px;
+}
+
+.nav-li:last-child {
   margin-right: 0;
 }
 
