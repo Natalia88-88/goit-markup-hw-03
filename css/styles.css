@@ -214,9 +214,13 @@ ul {
   row-gap: 48px;
   gap: 24px;
 }
-.advant-ul-li:not(:last-child) {
-  margin-right: 24px;
+.advant-ul-li {
+  /* margin-right: 24px; */
   flex-basis: calc((100% - 72px) / 4);
+}
+
+.advant-ul-li:last-child {
+  margin-right: 0;
 }
 
 .item-title {
