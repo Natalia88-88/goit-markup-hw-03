@@ -38,6 +38,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 40px;
 }
 
 .header {
@@ -46,6 +47,7 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .nav-ul {
@@ -85,9 +87,10 @@ ul {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 24px;
+  gap: 40px;
 }
 
-.nav-li-link:last-child {
+.nav-ul:last-child {
   margin-right: 0;
 }
 
@@ -256,9 +259,6 @@ ul {
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
   width: 264px;
-}
-
-.team-ul-li:first-child {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -270,9 +270,9 @@ ul {
   gap: 24px;
 }
 
-.team-ul-li:last-child {
+/* .team-ul-li:last-child {
   margin-right: 0;
-}
+} */
 
 .team-block {
   display: flex;
