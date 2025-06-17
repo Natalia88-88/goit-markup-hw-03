@@ -46,7 +46,6 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 
 .nav-ul {
@@ -114,7 +113,6 @@ ul {
 .email-tel {
   padding-top: 24px;
   padding-bottom: 24px;
-  gap: 40px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -208,7 +206,7 @@ ul {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   margin-bottom: 72px;
 }
 
@@ -220,7 +218,6 @@ ul {
   gap: 24px;
 }
 .advant-ul-li {
-  /* margin-right: 24px; */
   flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -255,7 +252,6 @@ ul {
 .team-ul {
   display: flex;
   gap: 24px;
-  /* width: 264px; */
 }
 
 .team-ul-li {
@@ -265,10 +261,6 @@ ul {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
 }
-
-/* .team-ul-li:last-child {
-  margin-right: 0;
-} */
 
 .team-block {
   display: flex;
@@ -284,9 +276,6 @@ ul {
 
 /* Section Portfolio start */
 
-.portfolio {
-  padding: 32px 16px;
-}
 .portfolio-ul {
   display: flex;
   flex-wrap: wrap;
