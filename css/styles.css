@@ -283,7 +283,7 @@ ul {
   column-gap: 24px;
   row-gap: 48px;
   flex-shrink: 1;
-  padding: 32px 16px;
+  /* padding: 32px 16px; */
 }
 
 .portfolio-ul-li {
@@ -298,11 +298,10 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: start;
-  /* padding: 32px 0; */
+  padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  /* padding-left: 16px; */
 }
 
 /* Section Portfolio end */
