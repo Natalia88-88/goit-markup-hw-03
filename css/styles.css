@@ -102,13 +102,14 @@ ul {
 
 .address-ul {
   display: flex;
+  gap: 40px;
 }
 
-.address-block {
+/* .address-block {
   flex-wrap: nowrap;
   justify-content: flex-end;
   margin-right: 40px;
-}
+} */
 
 .email-tel {
   padding-top: 24px;
