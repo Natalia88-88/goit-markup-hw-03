@@ -50,7 +50,6 @@ ul {
 
 .nav-ul {
   display: flex;
-  margin-right: 40px;
 }
 .logo {
   display: block;
@@ -105,11 +104,9 @@ ul {
   gap: 40px;
 }
 
-/* .address-block {
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  margin-right: 40px;
-} */
+.address {
+  font-style: normal;
+}
 
 .email-tel {
   padding-top: 24px;
@@ -233,7 +230,6 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .paragraph {
